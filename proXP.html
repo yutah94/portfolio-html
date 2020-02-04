@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Professional Experience</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+            <header id="main-header">
+                <div class="container">
+                    <h1 id="name"><img src="images/Utah.jpg" alt="yutah" id="yutah">Yuta Nagano</h1>
+                </div>
+            </header>
+
+            <nav id="navbar">
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="proXP.html">Professional Experience</a></li>
+                        <li><a href="contact.html">Contact Information</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+            <div class="work-space">
+                <main id="accordion">
+                    <button class="accordion"><h3>Work History</h3></button>
+                        <div class="panel">
+                            <p><b>Project Coordinator @ Ancestry</b></p>
+                                <p>• Constructed capacity planning/forecasts for the email production and onsite testing teams by tracking individual’s output through Workfront and generating metrics tracking reports in Tableau for directors</p>
+                                <p>• Reduced workload for 3 project managers by 25% through conducting sprint planning meetings, stand ups, retrospective meetings (continuous improvement) for multiple teams, prioritizing projects, and backlog management</p>
+                                <p>• Served as liaison for the INT’L creative teams in the UK, Germany, Sweden, Australia and Canada in gathering requirements (i.e. deliverables, timelines, onsite assets) to successfully launch major holiday campaigns</p>
+                                <hr>
+                            <p><b>Communications Coordinator @ BYU-Hawaii</b></p>
+                                <p>• Increased process efficiencies in $850M facility ‘facilities management’ by 10% by implementing mobile device management software</p>
+                                <p>• Reduced cycle time of iOS software updates by 97% by creating criteria for the appropriate application implementation with minimal supervision and direction</p>
+                                <p>• Created process maps for the electronic devices ‘Reuse & Recycle’ program, project charter, Gantt charts, and gap analysis</p>
+                        </div>
+                </main>
+                
+                <main id="accordion">
+                    <button class="accordion"><h3>Education</h3></button>
+                        <div class="panel">
+                            <p><b>Birgham Young University - Hawaii</b></p>
+                                <p>Bachelor of Science (B.S.) - Business Administration; Supply Chain Management</p>
+                                <hr>
+                            <p><b>Birgham Young University - Idaho</b></p>
+                                <p>Associate of Arts (A.A.) - Business Administration</p>
+                                <hr>
+                            <p><h4>Certificates:</h4></p>
+                                <p><i>Certified Associate in Project Management (PMI)</i></p>
+                                <p><i>Six Sigma Yellow Belt (IASSC)</i></p>
+                                <hr>
+                            <p><h4>Training & Seminars In Progress:</h4></p>
+                                <p><i>Helio Coding Bootcamp - </i>Neumont College of Computer Science</p>
+                        </div>
+                </main>
+
+                <main id="accordion">
+                    <button class="accordion"><h3>Volunteer Experience</h3></button>
+                        <div class="panel">
+                            <p><b>Event Coordinator @ BYU Management Society</b></p>
+                                <p>• Collaborate with working professionals and students in creating networking opportunities to increase awareness of multiple industries and educate on best business practices</p>
+                                <hr>
+                            <p><b>President/Secretary/Instructor/Performer - Breakdance Club</b></p>
+                                <p>• Taught and instructed over one hundred students on fundamental/complex dance choreography, performed in over twenty dance productions, member of the Brigham Young University Collegiate Dance Team, and coordinated with other instructors for providing music, social media posts and assigning tasks</p>
+                                <hr>
+                            <p><b>Volunteer Service Representative @ Church of Jesus Christ of Latter-day-Saints - Tokyo, Japan</b></p>
+                                <p>• Dedicated 70+ hours of weekly service to training and supervising six to fifteen service representatives  in multiple leadership positions along with organizing and conducting conferences in English and Japanese.</p>
+                        </div>
+                </main>
+
+                <main id="accordion">
+                    <button class="accordion"><h3>Programming Languages</h3></button>
+                        <div class="panel">
+                            <p><img src="./images/html.png" alt=html><img src="./images/css.png" alt=html><img src="./images/javascript.png" alt=html><img src="./images/SQL.png" alt=html></p>
+                        </div>
+                </main>
+            </div>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+        <footer id="ProXP-main-footer">
+            <p>Copyright &copy; 2020 Y. Nagano Website</p>
+        </footer>
+</body>
+</html>

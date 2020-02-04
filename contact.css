@@ -1,0 +1,78 @@
+#title {
+    font-size: 2.5rem;
+    padding-left: 20%;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.container1 {
+    padding-top: 5%;
+}
+
+#info {
+    padding-top: 2%;
+}
+
+#info ul {
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    padding-left: 20%
+}
+
+#img {
+    float: right;
+    top: 20%;
+    height: 500px;
+    position: absolute;
+    right: 23%;
+    width: 20%;
+}
+
+#contact-left {
+    
+}
+
+@media(max-width:1351px){
+    #contact-left{
+        width:100%;
+        float:none;
+    }
+    #img{
+        width:100%;
+        float:none;
+    }
+}
+
+#message {
+    padding-left: 20%;
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.3rem;
+}
+
+#linkedin {
+    height: 35px;
+    padding-left: 0.8%;
+    padding-top: 0.5%;
+    position: absolute
+}
+
+#name-input {
+    padding-left: 2.3%
+}
+
+#email-input {
+    padding-top: 1%
+}
+
+#email {
+    padding-top: 1%;
+
+}
+
+#submit {
+    padding-top: 1%;
+    padding-left: 15%
+}

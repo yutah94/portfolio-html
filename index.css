@@ -1,0 +1,179 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+    overflow: scroll;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    margin-top: 20;
+}
+
+#main-header{
+    background-color:coral;
+    color:#fff;
+    position: relative;
+}
+
+#yutah {
+    height: 50px;
+    position: absolute;
+    right: 150px;
+    top: 8px;
+}
+
+#navbar{
+    background-color:#333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline;
+    margin-right: 5px;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+#navbar a:hover {
+    color: coral;
+}
+
+#showcase{
+    background-image:url('../images/beach.jpg');
+    background-position:0px -400px;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+    background-size: cover;
+}
+
+#showcase h1{
+    color:#fff;
+    font-size:50px;
+    line-height:1.6em;
+    padding-top:30px;
+}
+
+#main{
+    float:left;
+    width: 70%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background:#333;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#push {
+    padding-top: 1%
+}
+
+#ProXP-main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    clear: both;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    line-height: 300%;
+    margin-top: 215px;
+}
+
+#home-main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    clear: both;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    line-height: 300%;
+    margin-top: 8.7%;
+}
+
+#contact-main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    clear: both;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    line-height: 300%;
+    margin-top: 16.5%;
+}
+
+.work-space {
+    margin-top: 7%;
+}
+
+#content-wrap{
+    padding-bottom: 2.5rem;
+}
+
+#page-container{
+    position: relative;
+    min-height: fit-content
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
+
+#accordion{
+    padding-top: 10px;
+}
+
+.accordion {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: auto;
+  }
