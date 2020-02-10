@@ -1,3 +1,59 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+    overflow-y: visible;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    margin-top: 20;
+}
+
+#main-header{
+    background-color:coral;
+    color:#fff;
+    position: relative;
+}
+
+#yutah {
+    height: 50px;
+    position: absolute;
+    right: 150px;
+    top: 8px;
+}
+
+#navbar{
+    background-color:#333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline;
+    margin-right: 5px;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+#navbar a:hover {
+    color: coral;
+}
+
 #title {
     font-size: 2.5rem;
     padding-left: 20%;
@@ -22,26 +78,41 @@
 }
 
 #img {
-    float: right;
-    top: 20%;
-    height: 500px;
-    position: absolute;
-    right: 23%;
-    width: 20%;
+    width: 25%;
+    height: 60vh;
+    margin-top: -5%;
+    margin-left: -9%;
 }
 
-#contact-left {
-    
+#main{
+    float:left;
+    width: 50%;
+    padding:0 30px;
+    box-sizing: border-box;
+    margin-left: 13%;
+}
+
+#sidebar{
+    float:right;
+    width: 20%;
+    background:#333;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
 }
 
 @media(max-width:1351px){
-    #contact-left{
+    #main{
         width:100%;
         float:none;
+        margin-left: 18%
     }
-    #img{
+    #aside{
         width:100%;
         float:none;
+        margin-top: 10%;
+        margin-left: 46.9%;
+        
     }
 }
 
@@ -75,4 +146,16 @@
 #submit {
     padding-top: 1%;
     padding-left: 15%
+}
+
+#contact-main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    clear: both;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    line-height: 300%;
+    margin-top: 8.2%;
 }
