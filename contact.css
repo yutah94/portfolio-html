@@ -108,11 +108,15 @@ body{
         margin-left: 18%
     }
     #aside{
-        width:100%;
+        width:1300px;
         float:none;
         margin-top: 10%;
         margin-left: 46.9%;
         
+    }
+    #submit{
+        padding-top: 1%;
+        padding-left: 15%
     }
 }
 
